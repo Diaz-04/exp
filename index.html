@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Michael Jackson</title>
+    <link rel="shortcut icon" href="img/icono_mj.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <!--FUENTES-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Spicy+Rice&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merienda:wght@300..900&display=swap" rel="stylesheet">
+
+    <style>
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #principal{
+        width: 710px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);                    
+    }
+    #principal h1,p{
+        text-align: center;
+        align-content: center;
+        padding: 5px;
+        margin: 5px;
+    }
+    h1{
+        font-family: "Spicy Rice", serif;
+        font-weight: 300;
+        font-style: normal;
+        font-size: 64pt;
+        color: #FCFCFC;
+        text-shadow: 4px 4px 12px black;
+    }
+    p{
+        color: rgb(179, 150, 247);
+        text-shadow: 2px -2px 10px black;
+        font-size: 14pt;
+        font-family: "Merienda", cursive;
+        font-optical-sizing: auto;
+    }
+    #menu{
+        display: flex;
+        justify-content: space-evenly;
+        list-style-type: none;
+    }
+    #menu li{
+        padding: 4px;
+    }
+    #menu li a{
+        font-size: 10pt;
+        text-decoration: none;
+        color:#F1F1F1;
+        text-shadow: 3px 3px 8px black;
+        padding: 5px;
+        font-weight: bold;
+    }
+    #menu li a:hover{
+        background-color: #F1F1F1;
+        text-shadow: 3px 3px 8px black;
+        color: #262626;
+    }
+
+    #menu2{
+        display: flex;
+        justify-content:center;
+        list-style-type: none;
+    }
+    #menu2 li{
+        padding: 10pt;
+    }
+    #menu2 li a{
+        font-size: 20pt;
+        text-decoration: none;
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 50px 50px 40px 40px;
+        color:black;
+        padding: 5px;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        filter:brightness(55%)
+    }
+    </style>
+
+</head>
+<body>
+    <img src="img/fondo.jpg" alt="fondo_mj">
+    <div id="principal">
+
+        <div id="titulo"><h1>MICHAEL JACKSON</h1>
+        </div>
+        <div><p>El magnífico Rey del Pop. Cantante, compositor, productor y bailarín estadounidense. Quien marcó un antes y un después dentro de la industria musical.</p></div>
+        <div>
+            <ul id="menu">
+                <li><a href="index.html">INICIO</a></li>
+                <li><a href="blog.html">BLOG</a></li>
+                <li><a href="galeria.html">GALERIA</a></li>
+                <li><a href="videos.html">VIDEOS</a></li>
+            </ul>
+        </div>
+        <div>
+            <br><br>
+            <ul id="menu2">
+                <li><a href="https://twitter.com/michaeljackson" target="_new"><i class="fa-brands fa-x-twitter"></i></a></li>
+                <li><a href="https://www.facebook.com/michaeljackson" target="_new"><i class="fa-brands fa-facebook"></i></a></li>
+                <li><a href="https://www.instagram.com/michaeljackson/" target="_new"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.youtube.com/@MichaelJackson" target="_new"><i class="fa-brands fa-tiktok"></i></a></li>
+            </ul>
+        </div>
+    </div>
+    
+</body>
+</html>
